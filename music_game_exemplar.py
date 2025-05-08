@@ -177,7 +177,6 @@ def game():
     while questionscore != 0:
         songandband = song_choice()
         question = create_question(songandband[0])
-        print(songandband)
         questionscore = ask_question(question, songandband)
         totalscore += questionscore
         if questionscore != 0:
